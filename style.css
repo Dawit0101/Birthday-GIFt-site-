@@ -1,0 +1,85 @@
+body{
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background-color: rgba(255, 196, 0, 0.979);
+}
+#container{
+    background-image: url(/images/bkg.jpg);
+    background-size: cover;
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px 0px;
+    border: 0px;
+    border-radius: 20px;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#my-img{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 196, 0, 0.979);
+}
+
+h1{
+    font-size: 23px;
+}
+span,h1,h2{
+    text-shadow: 1px -1px 5px rgba(132, 132, 132, 0.979);
+}
+input[type="date"]{
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    font-family: inherit;
+    background-color: rgba(255, 196, 0, 0.979);
+    color: black;
+    padding: 5px 0px;
+}
+
+.gift-section{
+    border: 1px dotted white;
+    margin-top: 100px;
+}
+
+
+
+.gift-img-section{
+    background-image: url(/images/gift.png);
+    background-size: cover;
+    margin: 0 auto;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#gift-present-one:hover{
+    background-image: url(/images/bdg.gif);
+}
+
+#gift-present-two:hover{
+    background-image: url(/images/bdg2.gif);
+}
+
+#gift-present-three:hover{
+    background-image: url(/images/bdg3.gif);
+}
+
+#gift-present-four:hover{
+    background-image: url(/images/bdg4.gif);
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
